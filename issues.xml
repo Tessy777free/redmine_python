@@ -1,0 +1,80 @@
+<issues total_count="4" offset="0" limit="25" type="array">
+	<issue>
+		<id>26</id>
+		<project id="2" name="開発環境構築"/>
+		<tracker id="1" name="バグ"/>
+		<status id="1" name="新規"/>
+		<priority id="1" name="低め"/>
+		<author id="5" name="Shinobu Teshigawara"/>
+		<assigned_to id="5" name="Shinobu Teshigawara"/>
+		<subject>チケットタイトル2</subject>
+		<description>チケットの内容をしめす。 改行もできる。</description>
+		<start_date>2020-05-15</start_date>
+		<due_date>2020-05-15</due_date>
+		<done_ratio>40</done_ratio>
+		<is_private>false</is_private>
+		<estimated_hours>4.0</estimated_hours>
+		<created_on>2020-05-14T15:44:11Z</created_on>
+		<updated_on>2020-05-14T15:44:11Z</updated_on>
+		<closed_on/>
+	</issue>
+	<issue>
+		<id>25</id>
+		<project id="2" name="開発環境構築"/>
+		<tracker id="4" name="タスク"/>
+		<status id="2" name="進行中"/>
+		<priority id="2" name="通常"/>
+		<author id="5" name="Shinobu Teshigawara"/>
+		<assigned_to id="5" name="Shinobu Teshigawara"/>
+		<subject>PythonでRedmineのチケットを操作する</subject>
+		<description>
+		[PythonでRedmineのチケットを操作する](https://water2litter.net/rum/post/python_redmine_control/) [Python Redmineを使用してRedmineを操作する](https://qiita.com/mima_ita/items/1a939db423d8ee295c85#%E7%89%B9%E5%AE%9A%E3%81%AE%E6%9D%A1%E4%BB%B6%E3%81%AE%E3%83%81%E3%82%B1%E3%83%83%E3%83%88%E3%81%AE%E5%8F%96%E5%BE%97) [Redmineのチケットを複数条件でフィルタした結果をAPIで取得してみる](http://blog.serverworks.co.jp/tech/2020/02/07/redmine-api/) [Redmineをちょっと便利に! プログラミング無しで使ってみるREST API](https://www.slideshare.net/g_maeda/redmine-rest-api) [RedmineチケットをRest APIを使って、履歴付きで別Redmineへ移行した記録](https://qiita.com/akisatoyuka/items/8429715d98155ef57548) [Redmine APIを利用して全チケットを一括で取得しCSV出力する](https://qiita.com/tono55g2/items/395bf987027e80ee81d7) [Python で XMLをJSONへ変換をやってみた！](http://www.kmiura.net/archives/cat_106983.html?p=2) [Redmine APIを使ってみた](https://www.jcsc.co.jp/tech_blog/archives/6) チケット内容をjsonで取得する方法 >$ curl http://redmine.example.org/issues.json?key=[API KEY] | python -m json.tool crulで取得して、pythonで変換する
+		</description>
+		<start_date>2020-05-15</start_date>
+		<due_date>2020-05-15</due_date>
+		<done_ratio>40</done_ratio>
+		<is_private>false</is_private>
+		<estimated_hours>4.0</estimated_hours>
+		<created_on>2020-05-14T15:37:28Z</created_on>
+		<updated_on>2020-05-17T17:47:17Z</updated_on>
+		<closed_on/>
+	</issue>
+	<issue>
+		<id>22</id>
+		<project id="2" name="開発環境構築"/>
+		<tracker id="4" name="タスク"/>
+		<status id="1" name="新規"/>
+		<priority id="2" name="通常"/>
+		<author id="5" name="Shinobu Teshigawara"/>
+		<assigned_to id="5" name="Shinobu Teshigawara"/>
+		<subject>Jenkinsインストール</subject>
+		<description/>
+		<start_date>2020-05-04</start_date>
+		<due_date>2020-05-09</due_date>
+		<done_ratio>0</done_ratio>
+		<is_private>false</is_private>
+		<estimated_hours>5.0</estimated_hours>
+		<created_on>2020-05-03T15:01:44Z</created_on>
+		<updated_on>2020-05-03T15:01:44Z</updated_on>
+		<closed_on/>
+	</issue>
+	<issue>
+		<id>21</id>
+		<project id="2" name="開発環境構築"/>
+		<tracker id="4" name="タスク"/>
+		<status id="1" name="新規"/>
+		<priority id="2" name="通常"/>
+		<author id="5" name="Shinobu Teshigawara"/>
+		<assigned_to id="5" name="Shinobu Teshigawara"/>
+		<subject>gitlabインストール</subject>
+		<description/>
+		<start_date>2020-05-04</start_date>
+		<due_date>2020-05-09</due_date>
+		<done_ratio>0</done_ratio>
+		<is_private>false</is_private>
+		<estimated_hours>5.0</estimated_hours>
+		<created_on>2020-05-03T15:00:59Z</created_on>
+		<updated_on>2020-05-06T10:11:01Z</updated_on>
+		<closed_on/>
+	</issue>
+</issues>
